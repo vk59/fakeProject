@@ -1,3 +1,6 @@
+from vanya import authors
+
+
 def hello(a, b):
     print("Hello, Git!")
     print("sum = ", a+b)
@@ -7,3 +10,4 @@ def hello2():
 
 hello(5, 4)
 hello2
+authors()
